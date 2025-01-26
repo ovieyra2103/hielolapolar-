@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Hielo Polar</title>
+			<meta name="description" content="Hielo Polar" />
+			<meta name="keywords" content="Hielo, Cubos de hielo, Barra de hielo, marqueta de hielo" />
+			<meta name="author" content="Hielo Polar" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- LOAD JQUERY LIBRARY -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+			
+			<!-- LOADING FONTS AND ICONS -->
+			<link href="https://fonts.googleapis.com/css?family=Roboto:400%7CPoppins:300%2C800%2C800italic%2C700%2C400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+			
+			<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+			<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+			
+			<!-- REVOLUTION STYLE SHEETS -->
+			<link rel="stylesheet" type="text/css" href="css/rs6.css">
+			<!-- REVOLUTION LAYERS STYLES -->
+						<!-- REVOLUTION JS FILES -->
+			
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+					<script src="js/rbtools.min.js"></script>
+							<script src="js/rs6.min.js"></script>
+							
+			<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+
+			
+		</head>
+		
+		<body>
+			<p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_5_1_wrapper" data-alias="full-width-slider1" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_5_1" style="" data-version="6.6.20">
+					<rs-slides style="overflow: hidden; position: absolute;">
+						<rs-slide style="position: absolute;" data-key="rs-17" data-title="Slide" data-thumb="assets/fw-slide1-thumb-50x100.jpg" data-anim="eng:transitionPack;d:20;e:tpbasic;ms:1500;" data-in="o:1;" data-out="a:false;">
+							<img src="assets/slide1-bg1.jpg" alt="Slide 1" title="slide1-bg1.jpg" width="2300" height="900" class="rev-slidebg tp-rs-img" data-no-retina>
+<!--						--><rs-zone id="rrzm_17" class="rev_row_zone_middle" style="z-index: 19;"><!--
+
+								--><rs-row
+									id="slider-5-slide-17-layer-1" 
+									data-type="row"
+									data-xy="xo:50px;yo:50px;"
+									data-rsp_bd="off"
+									data-margin="r:50,50,50,30;l:50,50,50,30;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;sp:1500;"
+									data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+									data-frame_999_reverse="x:true;"
+									style="z-index:1;"
+								><!--
+									--><rs-column
+										id="slider-5-slide-17-layer-2" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-column="w:66.67%;"
+										data-margin="b:0,0,30,0;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:2;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-17-layer-5" 
+											data-type="text"
+											data-color="#9d6439"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,24,20;l:50,50,50,40;fw:800;"
+											data-margin="b:0,0,0,10;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:400;sp:1200;sR:400;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:3;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Próximamente
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-17-layer-6" 
+											data-type="text"
+											data-tsh="c:#000000;v:50px,41px,31px,19px;b:50px,41px,31px,19px;"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:200;sp:1400;sR:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:4;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Nueva 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-17-layer-7" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.8)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-margin="t:-5,-4,-3,-2;"
+											data-frame_0="x:right;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:5;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Polar Cup! 
+										</rs-layer><!--
+
+										--><a
+											id="slider-5-slide-17-layer-9" 
+											class="rs-layer rev-btn"
+											href="#" target="_blank" rel="noopener"
+											data-type="button"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:18,16,16,15;l:60,50,50,45;fw:800;"
+											data-dim="minh:0px,none,none,none;"
+											data-disp="inline-block"
+											data-margin="t:30,25,19,20;"
+											data-padding="r:50,41,50,40;l:50,41,50,39;"
+											data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;bor:50px,50px,50px,50px;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;sp:1500;sR:100;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:50px,50px,50px,50px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
+											style="z-index:6;background-color:rgba(0,0,0,0);font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										>Más Productos 
+										</a><!--
+									--></rs-column><!--
+
+									--><rs-column
+										id="slider-5-slide-17-layer-3" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-vbility="t,t,t,f"
+										data-rsp_bd="off"
+										data-padding="r:0,0,330,330;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:7;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-17-layer-10" 
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,30,18;l:50,50,50,30;fw:700;"
+											data-disp="inline-block"
+											data-margin="b:30,25,19,12;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:8;font-family:'Poppins';display:inline-block;"
+										>0{{current_slide_index}} 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-17-layer-4" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16,16,16,9;l:50,50,50,30;fw:300;"
+											data-disp="inline-block"
+											data-margin="l:8,7,5,3;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:9;font-family:'Poppins';display:inline-block;"
+										>/ 0{{total_slide_count}} 
+										</rs-layer><!--
+
+										--><p
+											id="slider-5-slide-17-layer-8" 
+											class="rs-layer"
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:20,18,18,11;l:30,30,30,18;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="st:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8500;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:10;font-family:'Roboto';"
+										>"Polar Cup": cubitos de hielo Polar Premier en vaso. Mantén tus bebidas frías por más tiempo y disfruta de su frescura. ¡Una experiencia refrescante y conveniente!. 
+										</p><!--
+									--></rs-column><!--
+								--></rs-row><!--
+							--></rs-zone><!--
+
+							--><rs-layer
+								id="slider-5-slide-17-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,r,r;xo:120px,80px,0,0;y:m,m,b,b;yo:100px,80px,80px,50px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:453px,374px,459px,356px;h:594px,490px,601.992px,466.988px;"
+								data-frame_0="x:left;o:1;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7500;"
+								data-frame_999_reverse="x:true;"
+								style="z-index:17;"
+							><img src="assets/chocolate-cup.png" alt="" class="tp-rs-img" width="453" height="594" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-17-layer-20" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:270px,230px,290px,180px;y:m;yo:-20px;"
+								data-text="w:normal;"
+								data-dim="w:63px,52.9883px,52px,46.9922px;h:68px,57px,57px,51px;"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-20px;"
+								data-loop_999="x:20px;sp:10000;e:sine.inOut;yym:t;"
+								style="z-index:16;"
+							><img src="assets/choco3.png" alt="" class="tp-rs-img" width="63" height="68" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-17-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:160px,120px,170px,84px;y:m;yo:-270px,-250px,-300px,-265px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:78px,57.988299999999995px,53px,53px;h:76px,57px,51.9883px,51px;"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:22;"
+							><img src="assets/choco4.png" alt="" class="tp-rs-img" width="78" height="76" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-17-layer-24" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-60px,-60px,20px,-50px;y:m;yo:-80px,-70px,-10px,50px;"
+								data-text="w:normal;"
+								data-dim="w:78px,78px,78px,60px;h:76px,76px,76px,57.9844px;"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:15;"
+							><img src="assets/choco5.png" alt="" class="tp-rs-img" width="78" height="76" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-17-layer-28" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,30px,0;y:m;yo:-220px,-220px,-210px,-220px;"
+								data-text="w:normal;"
+								data-dim="w:90px,73.9844px,73px,73px;h:83px,68px,68px,68px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;sR:100;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7400;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-10px;"
+								data-loop_999="x:10px;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:21;"
+							><img src="assets/choco1.png" alt="" class="tp-rs-img" width="90" height="83" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-17-layer-29" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:250px,190px,280px,140px;y:m;yo:-150px,-150px,-180px,-180px;"
+								data-text="w:normal;"
+								data-dim="w:80px,67.9922px,67px,67px;h:78px,66px,66px,66px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;sR:200;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:23;"
+							><img src="assets/choco2.png" alt="" class="tp-rs-img" width="80" height="78" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-18" data-title="Slide" data-thumb="assets/fw-slide2-thumb-50x100.jpg" data-anim="eng:transitionPack;d:20;e:tpbasic;ms:1500;" data-in="o:1;" data-out="a:false;">
+							<img src="assets/slide2-bg.jpg" alt="" title="slide2-bg.jpg" width="2300" height="900" class="rev-slidebg tp-rs-img" data-no-retina>
+<!--						--><rs-zone id="rrzm_18" class="rev_row_zone_middle" style="z-index: 19;"><!--
+
+								--><rs-row
+									id="slider-5-slide-18-layer-1" 
+									data-type="row"
+									data-xy="xo:50px;yo:50px;"
+									data-rsp_bd="off"
+									data-margin="r:50,50,50,30;l:50,50,50,30;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;sp:1500;"
+									data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+									data-frame_999_reverse="x:true;"
+									style="z-index:1;"
+								><!--
+									--><rs-column
+										id="slider-5-slide-18-layer-2" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-column="w:66.67%;"
+										data-margin="b:0,0,30,0;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:2;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-18-layer-5" 
+											data-type="text"
+											data-color="#a52aea"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,24,20;l:50,50,50,40;fw:800;"
+											data-margin="b:0,0,0,10;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:400;sp:1200;sR:400;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:3;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Calidad Superior 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-18-layer-6" 
+											data-type="text"
+											data-tsh="c:#000000;v:50px,41px,31px,19px;b:50px,41px,31px,19px;"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:200;sp:1400;sR:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:4;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Polar 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-18-layer-7" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.8)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-margin="t:-5,-4,-3,-2;"
+											data-frame_0="x:right;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:5;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Premier! 
+										</rs-layer><!--
+
+										--><a
+											id="slider-5-slide-18-layer-9" 
+											class="rs-layer rev-btn"
+											href="#" target="_blank" rel="noopener"
+											data-type="button"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:18,16,16,15;l:60,50,50,45;fw:800;"
+											data-dim="minh:0px,none,none,none;"
+											data-disp="inline-block"
+											data-margin="t:30,25,19,20;"
+											data-padding="r:50,41,50,40;l:50,41,50,39;"
+											data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;bor:50px,50px,50px,50px;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;sp:1500;sR:100;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:50px,50px,50px,50px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
+											style="z-index:6;background-color:rgba(0,0,0,0);font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										>Más Productos
+										</a><!--
+									--></rs-column><!--
+
+									--><rs-column
+										id="slider-5-slide-18-layer-3" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-vbility="t,t,t,f"
+										data-rsp_bd="off"
+										data-padding="r:0,0,330,330;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:7;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-18-layer-10" 
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,30,18;l:50,50,50,30;fw:700;"
+											data-disp="inline-block"
+											data-margin="b:30,25,19,12;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:8;font-family:'Poppins';display:inline-block;"
+										>0{{current_slide_index}} 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-18-layer-4" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16,16,16,9;l:50,50,50,30;fw:300;"
+											data-disp="inline-block"
+											data-margin="l:8,7,5,3;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:9;font-family:'Poppins';display:inline-block;"
+										>/ 0{{total_slide_count}} 
+										</rs-layer><!--
+
+										--><p
+											id="slider-5-slide-18-layer-8" 
+											class="rs-layer"
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:20,18,18,11;l:30,30,30,18;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="st:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8500;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:10;font-family:'Roboto';"
+										> Cubos de hielo con mínimas impurezas, brillantes y cristalinos, diseñados para experiencias premier. 
+										</p><!--
+									--></rs-column><!--
+								--></rs-row><!--
+							--></rs-zone><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,r,r;xo:120px,80px,0,0;y:m,m,b,b;yo:100px,80px,80px,50px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:398px,328px,459px,356px;h:511px,421px,601.992px,466.988px;"
+								data-frame_0="x:left;o:1;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7500;"
+								data-frame_999_reverse="x:true;"
+								style="z-index:17;"
+							><img src="assets/jar.png" alt="" class="tp-rs-img" width="398" height="511" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-20" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:250px,210px,340px,169px;y:m;yo:-120px,-100px,-100px,-13px;"
+								data-text="w:normal;"
+								data-dim="w:['60px','60px','60px','60px'];h:['82px','82px','82px','82px'];"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-20px;"
+								data-loop_999="x:20px;sp:10000;e:sine.inOut;yym:t;"
+								style="z-index:16;"
+							><img src="assets/fruit-6.png" alt="" class="tp-rs-img" width="60" height="82" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:210px,210px,280px,180px;y:m;yo:-250px,-250px,-280px,-200px;"
+								data-text="w:normal;"
+								data-dim="w:['69px','69px','69px','69px'];h:['64px','64px','64px','64px'];"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:24;"
+							><img src="assets/fruit-5.png" alt="" class="tp-rs-img" width="69" height="64" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-24" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-60px,-60px,-40px,-40px;y:m;yo:-20px,-20px,30px,30px;"
+								data-text="w:normal;"
+								data-dim="w:['79px','79px','79px','79px'];h:['58px','58px','58px','58px'];"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:15;"
+							><img src="assets/fruit-7.png" alt="" class="tp-rs-img" width="79" height="58" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-28" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-40px,-40px,0,-40px;y:m;yo:-130px,-130px,-210px,-170px;"
+								data-text="w:normal;"
+								data-dim="w:['81px','81px','81px','81px'];h:['83px','83px','83px','83px'];"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;sR:100;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7400;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-10px;"
+								data-loop_999="x:10px;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:22;"
+							><img src="assets/fruit-3.png" alt="" class="tp-rs-img" width="81" height="83" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-29" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:230px,170px,310px,170px;y:m;yo:120px,130px,150px,100px;"
+								data-text="w:normal;"
+								data-dim="w:['68px','68px','68px','68px'];h:['67px','67px','67px','67px'];"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;sR:200;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:25;"
+							><img src="assets/fruit-1.png" alt="" class="tp-rs-img" width="68" height="67" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-32" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,80px,10px;y:m;yo:100px;"
+								data-text="w:normal;"
+								data-dim="w:['74px','74px','74px','74px'];h:['68px','68px','68px','68px'];"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:23;"
+							><img src="assets/fruit-2.png" alt="" class="tp-rs-img" width="74" height="68" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-18-layer-33" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:60px,30px,100px,80px;y:m;yo:-240px,-240px,-300px,-250px;"
+								data-text="w:normal;"
+								data-dim="w:['60px','60px','60px','60px'];h:['54px','54px','54px','54px'];"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;sR:100;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7400;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-10px;"
+								data-loop_999="x:10px;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:21;"
+							><img src="assets/fruit-4.png" alt="" class="tp-rs-img" width="60" height="54" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-19" data-title="Slide" data-thumb="assets/fw-slide3-thumb-50x100.jpg" data-anim="eng:transitionPack;d:20;e:tpbasic;ms:1500;" data-in="o:1;" data-out="a:false;">
+							<img src="assets/slide3-bg.jpg" alt="" title="slide3-bg.jpg" width="2300" height="900" class="rev-slidebg tp-rs-img" data-no-retina>
+<!--						--><rs-zone id="rrzm_19" class="rev_row_zone_middle" style="z-index: 21;"><!--
+
+								--><rs-row
+									id="slider-5-slide-19-layer-1" 
+									data-type="row"
+									data-xy="xo:50px;yo:50px;"
+									data-rsp_bd="off"
+									data-margin="r:50,50,50,30;l:50,50,50,30;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;sp:1500;"
+									data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+									data-frame_999_reverse="x:true;"
+									style="z-index:1;"
+								><!--
+									--><rs-column
+										id="slider-5-slide-19-layer-2" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-column="w:66.67%;"
+										data-margin="b:0,0,30,0;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:2;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-19-layer-5" 
+											data-type="text"
+											data-color="#9d6439"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,24,20;l:50,50,50,40;fw:800;"
+											data-margin="b:0,0,0,10;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:400;sp:1200;sR:400;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:3;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-19-layer-6" 
+											data-type="text"
+											data-tsh="c:#000000;v:50px,41px,31px,19px;b:50px,41px,31px,19px;"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:200;sp:1400;sR:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:4;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Barras
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-19-layer-7" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.8)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-margin="t:-5,-4,-3,-2;"
+											data-frame_0="x:right;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:5;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>De Hielo! 
+										</rs-layer><!--
+
+										--><a
+											id="slider-5-slide-19-layer-9" 
+											class="rs-layer rev-btn"
+											href="#" target="_blank" rel="noopener"
+											data-type="button"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:18,16,16,15;l:60,50,50,45;fw:800;"
+											data-dim="minh:0px,none,none,none;"
+											data-disp="inline-block"
+											data-margin="t:30,25,19,20;"
+											data-padding="r:50,41,50,40;l:50,41,50,39;"
+											data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;bor:50px,50px,50px,50px;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;sp:1500;sR:100;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:50px,50px,50px,50px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
+											style="z-index:6;background-color:rgba(0,0,0,0);font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										>Más Productos 
+										</a><!--
+									--></rs-column><!--
+
+									--><rs-column
+										id="slider-5-slide-19-layer-3" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-vbility="t,t,t,f"
+										data-rsp_bd="off"
+										data-padding="r:0,0,330,330;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:7;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-19-layer-10" 
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,30,18;l:50,50,50,30;fw:700;"
+											data-disp="inline-block"
+											data-margin="b:30,25,19,12;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:8;font-family:'Poppins';display:inline-block;"
+										>0{{current_slide_index}} 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-19-layer-4" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16,16,16,9;l:50,50,50,30;fw:300;"
+											data-disp="inline-block"
+											data-margin="l:8,7,5,3;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:9;font-family:'Poppins';display:inline-block;"
+										>/ 0{{total_slide_count}} 
+										</rs-layer><!--
+
+										--><p
+											id="slider-5-slide-19-layer-8" 
+											class="rs-layer"
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:20,18,18,11;l:30,30,30,18;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="st:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8500;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:10;font-family:'Roboto';"
+										>La Barra de Hielo es ideal para procesos industriales, como la preservación de productos perecederos o la refrigeración en grandes escalas. (Triturado sin costo adicional).
+										</p><!--
+									--></rs-column><!--
+								--></rs-row><!--
+							--></rs-zone><!--
+
+							--><rs-layer
+								id="slider-5-slide-19-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,c,r;xo:170px,120px,170px,0;y:b;yo:100px,60px,100px,50px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:366px,366px,366px,339px;h:239px,239px,239px,221px;"
+								data-frame_0="x:left;o:1;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7500;"
+								data-frame_999_reverse="x:true;"
+								style="z-index:17;"
+							><img src="assets/donut1.png" alt="" class="tp-rs-img" width="366" height="239" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-19-layer-20" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:120px,100px,240px,170px;y:m;yo:50px,-20px,-80px,90px;"
+								data-text="w:normal;"
+								data-dim="w:63px,63px,63px,56px;h:68px,68px,68px,59.988299999999995px;"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-20px;"
+								data-loop_999="x:20px;sp:10000;e:sine.inOut;yym:t;"
+								style="z-index:16;"
+							><img src="assets/choco3.png" alt="" class="tp-rs-img" width="63" height="68" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-19-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,c,r;xo:240px,210px,190px,40px;y:m;yo:-250px,-200px,-250px,-255px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:78px,78px,78px,66.9883px;h:76px,76px,76px,65px;"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:23;"
+							><img src="assets/choco4.png" alt="" class="tp-rs-img" width="78" height="76" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-19-layer-24" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-110px,-110px,10px,-10px;y:m;yo:-150px,-150px,-60px,20px;"
+								data-text="w:normal;"
+								data-dim="w:['78px','78px','78px','78px'];h:['76px','76px','76px','76px'];"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;blu:3px;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:15;"
+							><img src="assets/choco5.png" alt="" class="tp-rs-img" width="78" height="76" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-19-layer-28" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:30px,50px,100px,100px;y:m;yo:-171px,-171px,-141px,-220px;"
+								data-text="w:normal;"
+								data-dim="w:189px,176px,176px,152px;h:156px,145px,145px,125px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;sR:100;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7400;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-10px;"
+								data-loop_999="x:10px;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:24;"
+							><img src="assets/donut3.png" alt="" class="tp-rs-img" width="200" height="165" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-19-layer-29" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,c,r;xo:220px,210px,220px,30px;y:m;yo:-20px,-30px,30px,10px;"
+								data-text="w:normal;"
+								data-dim="w:200px,181px,181px,159px;h:172px,154.992px,154px,136px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;sR:200;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:18;"
+							><img src="assets/donut2.png" alt="" class="tp-rs-img" width="208" height="178" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-19-layer-34" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-40px,-40px,-10px,-30px;y:m;yo:40px,-20px,50px,-100px;"
+								data-text="w:normal;"
+								data-dim="w:191px,191px,191px,165px;h:160px,160px,160px,138px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;sR:200;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:19;"
+							><img src="assets/donut4.png" alt="" class="tp-rs-img" width="191" height="160" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-20" data-title="Slide" data-thumb="assets/fw-slide4-thumb-50x100.jpg" data-anim="eng:transitionPack;d:20;e:tpbasic;ms:1500;" data-in="o:1;" data-out="a:false;">
+							<img src="assets/slide4-bg.jpg" alt="" title="slide4-bg.jpg" width="2300" height="900" class="rev-slidebg tp-rs-img" data-no-retina>
+<!--						--><rs-zone id="rrzm_20" class="rev_row_zone_middle" style="z-index: 20;"><!--
+
+								--><rs-row
+									id="slider-5-slide-20-layer-1" 
+									data-type="row"
+									data-xy="xo:50px;yo:50px;"
+									data-rsp_bd="off"
+									data-margin="r:50,50,50,30;l:50,50,50,30;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;sp:1500;"
+									data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+									data-frame_999_reverse="x:true;"
+									style="z-index:1;"
+								><!--
+									--><rs-column
+										id="slider-5-slide-20-layer-2" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-column="w:66.67%;"
+										data-margin="b:0,0,30,0;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:2;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-20-layer-5" 
+											data-type="text"
+											data-color="#ea2a2a"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,24,20;l:50,50,50,40;fw:800;"
+											data-margin="b:0,0,0,10;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:400;sp:1200;sR:400;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:3;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Los Clásicos 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-20-layer-6" 
+											data-type="text"
+											data-tsh="c:#000000;v:50px,41px,31px,19px;b:50px,41px,31px,19px;"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:200;sp:1400;sR:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:4;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>Cubitos 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-20-layer-7" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.8)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:100,80,80,60;l:90,70,70,50;ls:-5px,-4px,-3px,-1px;fw:800;"
+											data-margin="t:-5,-4,-3,-2;"
+											data-frame_0="x:right;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:5;font-family:'Poppins';text-transform:uppercase;font-style:italic;"
+										>de Hielo! 
+										</rs-layer><!--
+
+										--><a
+											id="slider-5-slide-20-layer-9" 
+											class="rs-layer rev-btn"
+											href="#" target="_blank" rel="noopener"
+											data-type="button"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:18,16,16,15;l:60,50,50,45;fw:800;"
+											data-dim="minh:0px,none,none,none;"
+											data-disp="inline-block"
+											data-margin="t:30,25,19,20;"
+											data-padding="r:50,41,50,40;l:50,41,50,39;"
+											data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;bor:50px,50px,50px,50px;"
+											data-frame_0="x:right;o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="e:back.out;sp:1500;sR:100;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;"
+											data-frame_999_reverse="x:true;"
+											data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:50px,50px,50px,50px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
+											style="z-index:6;background-color:rgba(0,0,0,0);font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										>Más Productos 
+										</a><!--
+									--></rs-column><!--
+
+									--><rs-column
+										id="slider-5-slide-20-layer-3" 
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-vbility="t,t,t,f"
+										data-rsp_bd="off"
+										data-padding="r:0,0,330,330;"
+										data-frame_0="x:right;o:1;"
+										data-frame_0_reverse="x:true;"
+										data-frame_1="e:back.out;st:300;sp:1300;sR:300;"
+										data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:7400;sA:9000;"
+										data-frame_999_reverse="x:true;"
+										style="z-index:7;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-20-layer-10" 
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:30,28,30,18;l:50,50,50,30;fw:700;"
+											data-disp="inline-block"
+											data-margin="b:30,25,19,12;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:8;font-family:'Poppins';display:inline-block;"
+										>0{{current_slide_index}} 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-20-layer-4" 
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16,16,16,9;l:50,50,50,30;fw:300;"
+											data-disp="inline-block"
+											data-margin="l:8,7,5,3;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8700;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:9;font-family:'Poppins';display:inline-block;"
+										>/ 0{{total_slide_count}} 
+										</rs-layer><!--
+
+										--><p
+											id="slider-5-slide-20-layer-8" 
+											class="rs-layer"
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:20,18,18,11;l:30,30,30,18;"
+											data-padding="l:100,83,0,0;"
+											data-frame_0="o:1;"
+											data-frame_0_reverse="x:true;"
+											data-frame_1="st:200;"
+											data-frame_999="x:left;o:1;e:back.out;st:w;sp:1500;sR:8500;"
+											data-frame_999_reverse="x:true;"
+											style="z-index:10;font-family:'Roboto';"
+										>El cubito de hielo convencional. Es un clásico elemento de enfriamiento, conocido por su versatilidad y simplicidad. Añade frescura a tus bebidas de manera práctica y efectiva. 
+										</p><!--
+									--></rs-column><!--
+								--></rs-row><!--
+							--></rs-zone><!--
+
+							--><rs-layer
+								id="slider-5-slide-20-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,c,r;xo:100px,100px,170px,0;y:b;yo:100px,60px,100px,50px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:414px,414px,414px,390px;h:218px,218px,218px,205px;"
+								data-frame_0="x:left;o:1;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7500;"
+								data-frame_999_reverse="x:true;"
+								style="z-index:15;"
+							><img src="assets/cupcake1.png" alt="" class="tp-rs-img" width="414" height="218" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-20-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,c,r;xo:210px,210px,190px,20px;y:m;yo:-200px,-201px,-250px,-110px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:98px,98px,98px,90px;h:74px,74px,74px,68px;"
+								data-frame_0="x:left;o:1;rZ:-90deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:8700;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:22;"
+							><img src="assets/strawberry1.png" alt="" class="tp-rs-img" width="98" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-20-layer-28" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-20px,-25px,100px,0;y:m;yo:-171px,-172px,-141px,-200px;"
+								data-text="w:normal;"
+								data-dim="w:224px,176px,224px,183px;h:149px,117px,149px,122px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:100;sp:1500;sR:100;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7400;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="x:-10px;"
+								data-loop_999="x:10px;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:23;"
+							><img src="assets/cupcake3.png" alt="" class="tp-rs-img" width="224" height="149" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-20-layer-29" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,c,r;xo:220px,180px,220px,30px;y:m;yo:-20px,-20px,30px,10px;"
+								data-text="w:normal;"
+								data-dim="w:221px,200px,221px,193px;h:177px,160px,177px,155px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;sR:200;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:17;"
+							><img src="assets/cupcake2.png" alt="" class="tp-rs-img" width="221" height="177" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-20-layer-34" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:10px,-40px,-10px,-60px;y:m;yo:40px,-20px,50px,40px;"
+								data-text="w:normal;"
+								data-dim="w:101px,101px,101px,90px;h:80px,80px,80px,71px;"
+								data-frame_0="x:left;o:1;rZ:-60deg;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;st:200;sp:1500;sR:200;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+								data-frame_999_reverse="x:true;"
+								data-loop_0="y:-10;"
+								data-loop_999="y:10;sp:6000;e:sine.inOut;yym:t;"
+								style="z-index:18;"
+							><img src="assets/strawberry2.png" alt="" class="tp-rs-img" width="101" height="80" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-5-slide-20-layer-35" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-110px,-100px,0,130px;y:b;yo:120px,80px,100px,50px;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:['160px','160px','160px','160px'];h:['83px','83px','83px','83px'];"
+								data-frame_0="x:left;o:1;"
+								data-frame_0_reverse="x:true;"
+								data-frame_1="e:back.out;sp:1500;"
+								data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7500;"
+								data-frame_999_reverse="x:true;"
+								style="z-index:16;"
+							><img src="assets/berries.png" alt="" class="tp-rs-img" width="160" height="83" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+					<rs-static-layers><!--
+						--><rs-zone id="rrzt_5" class="rev_row_zone_top" style="z-index: 33;"><!--
+
+								--><rs-row
+									id="slider-5-slide-5-layer-11" 
+									class="rs-layer-static"
+									data-type="row"
+									data-xy="xo:50px;yo:50px;"
+									data-cbreak="nobreak"
+									data-rsp_bd="off"
+									data-onslides="s:1;"
+									data-margin="t:30;r:50,50,50,30;l:50,50,50,30;"
+									data-frame_0="y:top;"
+									data-frame_1="e:back.out;sp:1500;"
+									data-frame_999="o:0;st:w;sR:7500;sA:9000;"
+									style="z-index:1;"
+								><!--
+									--><rs-column
+										id="slider-5-slide-5-layer-12" 
+										class="rs-layer-static"
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-onslides="s:1;"
+										data-column="w:66.67%;"
+										data-frame_0="o:1;"
+										data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+										style="z-index:2;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-5-layer-15" 
+											class="rs-layer-static"
+											data-type="image"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+											data-dim="w:218px,218px,182px,182px;h:42px,42px,35px,35px;"
+											data-actions='o:click;a:jumptoslide;slide:rs-first;'
+											data-onslides="s:1;"
+											data-margin="t:0,2,6,4;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:3;cursor:pointer;"
+										><img src="assets/fw-logo.png" alt="" class="tp-rs-img" width="436" height="84" data-no-retina> 
+										</rs-layer><!--
+									--></rs-column><!--
+
+									--><rs-column
+										id="slider-5-slide-5-layer-13" 
+										class="rs-layer-static"
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-onslides="s:1;"
+										data-frame_0="o:1;"
+										data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+										style="z-index:4;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-5-layer-36" 
+											class="rs-layer-static"
+											data-type="shape"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:20,16,12,7;f:right;l:0,20,15,9;"
+											data-flcr="f:right;"
+											data-dim="w:40px;h:45px;"
+											data-actions='o:click;a:toggleframes;m:frame_3;n:frame_2;layer:slider-5-slide-5-layer-16;ch:true;||o:click;a:toggleframes;m:frame_3;n:frame_2;layer:slider-5-slide-5-layer-17;ch:true;||o:click;a:togglelayer;ls:hidden;layer:slider-5-slide-5-layer-37;ch:true;||o:click;a:toggleslider;'
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-margin="l:-40;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:5;cursor:pointer;display:inline-block;"
+										> 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-5-layer-16" 
+											class="rs-noevents rs-layer-static"
+											data-type="shape"
+											data-rsp_ch="on"
+											data-xy="xo:381px;yo:82px;"
+											data-pos="r"
+											data-text="w:normal;f:right;"
+											data-flcr="f:right;"
+											data-dim="w:40px;h:1px;"
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-margin="t:15;"
+											data-ford="frame_0;frame_1;frame_2;frame_3;frame_999;"
+											data-frame_999="o:0;st:w;sR:7700;"
+											data-frame_2="y:5px;rZ:45deg;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;sR:100;"
+											data-frame_3="y:0px;rZ:0deg;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;sR:100;"
+											style="z-index:6;background-color:#ffffff;display:inline-block;"
+										> 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-5-layer-17" 
+											class="rs-noevents rs-layer-static"
+											data-type="shape"
+											data-rsp_ch="on"
+											data-xy="xo:381px;yo:82px;"
+											data-pos="r"
+											data-text="w:normal;f:right;"
+											data-flcr="f:right;"
+											data-dim="w:40px;h:1px;"
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-margin="t:25;r:-40;"
+											data-ford="frame_0;frame_1;frame_2;frame_3;frame_999;"
+											data-frame_999="o:0;st:w;sR:7700;"
+											data-frame_2="y:-5px;rZ:-45deg;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;sR:100;"
+											data-frame_3="y:0px;rZ:0deg;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;sR:100;"
+											style="z-index:7;background-color:#ffffff;display:inline-block;"
+										> 
+										</rs-layer><!--
+
+										--><a
+											id="slider-5-slide-5-layer-14" 
+											class="rs-layer rs-layer-static"
+											href="#" target="_blank" rel="noopener"
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16,14,14,8;l:45,45,45,27;ls:1px,1px,1px,0px;"
+											data-vbility="t,t,t,f"
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-margin="l:100,83,0,0;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											data-frame_hover="c:#fff;"
+											style="z-index:8;font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										>Productos 
+										</a><!--
+									--></rs-column><!--
+								--></rs-row><!--
+							--></rs-zone><!--
+						--><rs-zone id="rrzb_5" class="rev_row_zone_bottom" style="z-index: 22;"><!--
+
+								--><rs-row
+									id="slider-5-slide-5-layer-18" 
+									class="rs-layer-static"
+									data-type="row"
+									data-xy="xo:50px;yo:50px;"
+									data-cbreak="nobreak"
+									data-rsp_bd="off"
+									data-onslides="s:1;"
+									data-margin="r:50,50,50,30;b:30;l:50,50,50,30;"
+									data-frame_0="y:bottom;"
+									data-frame_1="e:back.out;sp:1500;"
+									data-frame_999="o:0;st:w;sR:7500;sA:9000;"
+									style="z-index:9;"
+								><!--
+									--><rs-column
+										id="slider-5-slide-5-layer-19" 
+										class="rs-layer-static"
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-onslides="s:1;"
+										data-column="w:66.67%;"
+										data-frame_0="o:1;"
+										data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+										style="z-index:10;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-5-layer-30" 
+											class="rs-layer-static"
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;l:45;ls:2px;"
+											data-actions='o:click;a:jumptoslide;slide:previous;'
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-margin="r:100,100,100,5;"
+											data-padding="r:20;l:20;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:11;font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										><i class="fa-angle-left"></i> 
+										</rs-layer><!--
+
+										--><rs-layer
+											id="slider-5-slide-5-layer-31" 
+											class="rs-layer-static"
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;l:45;ls:2px;"
+											data-actions='o:click;a:jumptoslide;slide:next;'
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-padding="r:20;l:20;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:12;font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										><i class="fa-angle-right"></i> 
+										</rs-layer><!--
+									--></rs-column><!--
+
+									--><rs-column
+										id="slider-5-slide-5-layer-21" 
+										class="rs-layer-static"
+										data-type="column"
+										data-xy="xo:50px;yo:50px;"
+										data-rsp_bd="off"
+										data-onslides="s:1;"
+										data-frame_0="o:1;"
+										data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+										style="z-index:13;width:100%;"
+									><!--
+										--><rs-layer
+											id="slider-5-slide-5-layer-22" 
+											class="rs-layer-static"
+											data-type="text"
+											data-color="rgba(255, 255, 255, 0.65)"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16,14,14,8;l:45,45,45,50;ls:1px,1px,1px,0px;"
+											data-vbility="t,t,t,f"
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-padding="l:100,83,0,0;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:14;font-family:'Poppins';text-transform:uppercase;display:inline-block;"
+										>Síguenos 
+										</rs-layer><!--
+
+										--><a
+											id="slider-5-slide-5-layer-25" 
+											class="rs-layer rs-layer-static"
+											href="https://www.youtube.com/" target="_blank" rel="noopener"
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16;f:right;l:45;ls:2px;"
+											data-flcr="f:right;"
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-padding="r:15,15,15,10;l:15,15,15,10;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:15;font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										><i class="fa-youtube-play"></i> 
+										</a><!--
+
+										--><a
+											id="slider-5-slide-5-layer-26" 
+											class="rs-layer rs-layer-static"
+											href="#" target="_blank" rel="noopener"
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16;f:right;l:45;ls:2px;"
+											data-flcr="f:right;"
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-padding="r:15,15,15,10;l:15,15,15,10;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:16;font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										><i class="fa-instagram"></i> 
+										</a><!--
+
+										--><a
+											id="slider-5-slide-5-layer-27" 
+											class="rs-layer rs-layer-static"
+											href="https://www.facebook.com/hielopolar" target="_blank" rel="noopener"
+											data-type="text"
+											data-rsp_ch="on"
+											data-xy=""
+											data-pos="r"
+											data-text="w:normal;s:16;f:right;l:45;ls:2px;"
+											data-flcr="f:right;"
+											data-onslides="s:1;"
+											data-disp="inline-block"
+											data-padding="r:15,15,15,10;l:15,15,15,10;"
+											data-frame_999="o:0;st:w;sR:8700;"
+											style="z-index:17;font-family:'Poppins';text-transform:uppercase;cursor:pointer;display:inline-block;"
+										><i class="fa-facebook-f"></i> 
+										</a><!--
+									--></rs-column><!--
+								--></rs-row><!--
+							--></rs-zone><!--
+
+							--><rs-group
+								id="slider-5-slide-5-layer-37" 
+								class="rs-layer-static"
+								data-type="group"
+								data-rsp_ch="on"
+								data-xy="x:c;"
+								data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+								data-dim="w:100%;h:100%;"
+								data-basealign="slide"
+								data-onslides="s:1;"
+								data-clip="u:true;o:t;"
+								data-frame_0="y:-100%;o:1;bB:5px;cp:0%;"
+								data-frame_1="e:circ.out;sp:1000;bB:15px;st:a;"
+								data-frame_999="o:1;e:back.out;st:a;sp:1000;sR:8000;cp:0%;sA:9000;"
+								style="z-index:32;background-color:rgba(45,41,41,0.9);"
+							><!--
+								--><rs-layer
+									id="slider-5-slide-5-layer-45" 
+									class="rs-layer-static"
+									data-type="text"
+									data-color="rgba(255, 255, 255, 0.6)"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:450px,371px,150px,92px;y:m;yo:100px,82px,330px,243px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,16,16;l:25,20,18,18;a:center;"
+									data-dim="w:200px,165px,125px,120px;"
+									data-actions='o:click;a:jumptoslide;slide:rs-20;||o:mouseenter;a:gotoframe;layer:slider-5-slide-5-layer-44;f:frame_2;ch:true;||o:mouseleave;a:gotoframe;layer:slider-5-slide-5-layer-44;f:frame_3;ch:true;||o:click;a:simulateclick;layer:slider-5-slide-5-layer-36;||o:click;a:playslider;'
+									data-onslides="s:1;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;st:600;sp:1400;sR:600;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:6900;"
+									data-frame_999_reverse="x:true;"
+									data-frame_hover="c:#fff;"
+									style="z-index:31;font-family:'Poppins';text-transform:uppercase;cursor:pointer;"
+								>cubitos de hielo 
+								</rs-layer><!--
+
+								--><rs-layer
+									id="slider-5-slide-5-layer-41" 
+									class="rs-layer-static"
+									data-type="text"
+									data-color="rgba(255, 255, 255, 0.6)"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:150px,123px,-150px,-92px;y:m;yo:100px,82px,330px,243px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,16,16;l:25,20,18,18;a:center;"
+									data-dim="w:200px,165px,125px,120px;"
+									data-actions='o:click;a:jumptoslide;slide:rs-19;||o:mouseenter;a:gotoframe;layer:slider-5-slide-5-layer-38;f:frame_2;ch:true;||o:mouseleave;a:gotoframe;layer:slider-5-slide-5-layer-38;f:frame_3;ch:true;||o:click;a:simulateclick;layer:slider-5-slide-5-layer-36;||o:click;a:playslider;'
+									data-onslides="s:1;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;st:400;sp:1400;sR:400;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7100;"
+									data-frame_999_reverse="x:true;"
+									data-frame_hover="c:#fff;"
+									style="z-index:30;font-family:'Poppins';text-transform:uppercase;cursor:pointer;"
+								>Barras<br />
+de Hielo 
+								</rs-layer><!--
+
+								--><rs-layer
+									id="slider-5-slide-5-layer-40" 
+									class="rs-layer-static"
+									data-type="text"
+									data-color="rgba(255, 255, 255, 0.6)"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:-150px,-123px,150px,92px;y:m;yo:100px,82px,-40px,-24px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,16,16;l:25,20,18,18;a:center;"
+									data-dim="w:200px,165px,150px,120px;"
+									data-actions='o:click;a:jumptoslide;slide:rs-18;||o:mouseenter;a:gotoframe;layer:slider-5-slide-5-layer-43;f:frame_2;ch:true;||o:mouseleave;a:gotoframe;layer:slider-5-slide-5-layer-43;f:frame_3;ch:true;||o:click;a:simulateclick;layer:slider-5-slide-5-layer-36;||o:click;a:playslider;'
+									data-onslides="s:1;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;st:200;sp:1400;sR:200;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+									data-frame_999_reverse="x:true;"
+									data-frame_hover="c:#fff;"
+									style="z-index:29;font-family:'Poppins';text-transform:uppercase;cursor:pointer;"
+								>Hielo<br />
+ Premier 
+								</rs-layer><!--
+
+								--><rs-layer
+									id="slider-5-slide-5-layer-39" 
+									class="rs-layer-static"
+									data-type="text"
+									data-color="rgba(255, 255, 255, 0.6)"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:-450px,-371px,-150px,-92px;y:m;yo:100px,82px,-40px,-24px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,16,16;l:25,20,18,18;a:center;"
+									data-dim="w:200px,165px,150px,120px;"
+									data-actions='o:click;a:jumptoslide;slide:rs-17;||o:mouseenter;a:gotoframe;layer:slider-5-slide-5-layer-42;f:frame_2;ch:true;||o:mouseleave;a:gotoframe;layer:slider-5-slide-5-layer-42;f:frame_3;ch:true;||o:click;a:simulateclick;layer:slider-5-slide-5-layer-36;||o:click;a:playslider;'
+									data-onslides="s:1;"
+									data-frame_0="x:right;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;sp:1400;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7500;"
+									data-frame_999_reverse="x:true;"
+									data-frame_hover="c:#fff;"
+									style="z-index:28;font-family:'Poppins';text-transform:uppercase;cursor:pointer;"
+								>Próximos lanzamientos 
+								</rs-layer><!--
+
+								--><rs-layer
+									id="slider-5-slide-5-layer-42" 
+									class="rs-layer-static"
+									data-type="image"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:-450px,-371px,-150px,-92px;y:m;yo:-100px,-82px,-200px,-133px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+									data-dim="w:250px,206px,200px,123px;h:318px,262px,255px,157px;"
+									data-onslides="s:1;"
+									data-ford="frame_0;frame_1;frame_2;frame_3;frame_999;"
+									data-frame_0="x:left;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;st:600;sp:1400;sR:600;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:6900;"
+									data-frame_999_reverse="x:true;"
+									data-frame_2="y:-20px,-16px,-12px,-7px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:600;"
+									data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;"
+									style="z-index:27;"
+								><img src="assets/slide1-menu.png" alt="" class="tp-rs-img" width="550" height="700" data-no-retina> 
+								</rs-layer><!--
+
+								--><rs-layer
+									id="slider-5-slide-5-layer-43" 
+									class="rs-layer-static"
+									data-type="image"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:-150px,-123px,150px,92px;y:m;yo:-100px,-82px,-200px,-133px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+									data-dim="w:250px,206px,200px,123px;h:318px,262px,255px,157px;"
+									data-onslides="s:1;"
+									data-ford="frame_0;frame_1;frame_2;frame_3;frame_999;"
+									data-frame_0="x:left;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;st:400;sp:1400;sR:400;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7100;"
+									data-frame_999_reverse="x:true;"
+									data-frame_2="y:-20px,-16px,-12px,-7px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:600;"
+									data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;"
+									style="z-index:26;"
+								><img src="assets/slide2-menu.png" alt="" class="tp-rs-img" width="550" height="700" data-no-retina> 
+								</rs-layer><!--
+
+								--><rs-layer
+									id="slider-5-slide-5-layer-38" 
+									class="rs-layer-static"
+									data-type="image"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:150px,123px,-150px,-92px;y:m;yo:-100px,-82px,148px,131px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+									data-dim="w:250px,206px,200px,123px;h:318px,262px,255px,157px;"
+									data-onslides="s:1;"
+									data-ford="frame_0;frame_1;frame_2;frame_3;frame_999;"
+									data-frame_0="x:left;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;st:200;sp:1400;sR:200;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7300;"
+									data-frame_999_reverse="x:true;"
+									data-frame_2="y:-20px,-16px,-12px,-7px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:600;"
+									data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;"
+									style="z-index:25;"
+								><img src="assets/slide3-menu.png" alt="" class="tp-rs-img" width="550" height="700" data-no-retina> 
+								</rs-layer><!--
+
+								--><rs-layer
+									id="slider-5-slide-5-layer-44" 
+									class="rs-layer-static"
+									data-type="image"
+									data-rsp_ch="on"
+									data-xy="x:c;xo:450px,371px,150px,92px;y:m;yo:-100px,-82px,148px,131px;"
+									data-pos="a"
+									data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+									data-dim="w:250px,206px,200px,123px;h:318px,262px,255px,157px;"
+									data-onslides="s:1;"
+									data-ford="frame_0;frame_1;frame_2;frame_3;frame_999;"
+									data-frame_0="x:left;o:1;"
+									data-frame_0_reverse="x:true;"
+									data-frame_1="e:back.out;sp:1400;"
+									data-frame_999="x:right;o:1;e:back.out;st:w;sp:1200;sR:7500;"
+									data-frame_999_reverse="x:true;"
+									data-frame_2="y:-20px,-16px,-12px,-7px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:600;"
+									data-frame_3="y:0px;oX:50%;oY:50%;oZ:0;tp:600;st:a;sp:400;"
+									style="z-index:24;"
+								><img src="assets/slide4-menu.png" alt="" class="tp-rs-img" width="550" height="700" data-no-retina> 
+								</rs-layer><!--
+							--></rs-group><!--
+					--></rs-static-layers>
+				</rs-module>
+				<script>
+					
+				</script>
+<script>
+		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+
+				<script>
+					var	tpj = jQuery;
+					if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+					if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+					RS_MODULES.modules["revslider51"] = {once: RS_MODULES.modules["revslider51"]!==undefined ? RS_MODULES.modules["revslider51"].once : undefined, init:function() {
+						window.revapi5 = window.revapi5===undefined || window.revapi5===null || window.revapi5.length===0  ? document.getElementById("rev_slider_5_1") : window.revapi5;
+						if(window.revapi5 === null || window.revapi5 === undefined || window.revapi5.length==0) { window.revapi5initTry = window.revapi5initTry ===undefined ? 0 : window.revapi5initTry+1; if (window.revapi5initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider51"].init()}); return;}
+						window.revapi5 = jQuery(window.revapi5);
+						if(window.revapi5.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_5_1"); return;}
+						revapi5.revolutionInit({
+								revapi:"revapi5",
+								DPR:"dpr",
+								sliderLayout:"fullwidth",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:"1240,1024,778,480",
+								gridheight:"900,768,960,720",
+								perspective:600,
+								perspectiveType:"global",
+								editorheight:"900,767.988,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								progressBar: {
+									vertical:"top",
+									size:"1px"
+									},
+								navigation: {
+									wheelCallDelay:1000,
+									onHoverStop:false,
+									touch: {
+										touchenabled:true
+									},
+									bullets: {
+										enable:true,
+										tmp:"",
+										style:"hesperiden",
+										hide_onmobile:true,
+										hide_under:"600px",
+										h_align:"left",
+										h_offset:105,
+										v_offset:48,
+										space:15,
+										container:"layergrid"
+									}
+								},
+								viewPort: {
+									global:false,
+									globalDist:"-200px",
+									enable:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+						});
+						
+					}} // End of RevInitScript
+					if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+				</script>
+
+
+
+<style>#rev_slider_5_1_wrapper .hesperiden.tp-bullets{}#rev_slider_5_1_wrapper .hesperiden.tp-bullets:before{content:' ';position:absolute;width:100%;height:100%;background:transparent;padding:10px;margin-left:-10px;margin-top:-10px;box-sizing:content-box; border-radius:8px}#rev_slider_5_1_wrapper .hesperiden .tp-bullet{width:10px;height:10px;position:absolute;background:rgba(255,255,255,0.2);  background:-moz-linear-gradient(top,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%);  background:-webkit-linear-gradient(top,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%);  background:-o-linear-gradient(top,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%);  background:-ms-linear-gradient(top,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%);  background:linear-gradient(to bottom,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%);  filter:progid:dximagetransform.microsoft.gradient(  startcolorstr='rgba(255,255,255,0.2)',endcolorstr='rgba(255,255,255,0.2)',gradienttype=0 ); border:0px solid transparent;border-radius:50%;cursor:pointer;box-sizing:content-box}#rev_slider_5_1_wrapper .hesperiden .tp-bullet.rs-touchhover,#rev_slider_5_1_wrapper .hesperiden .tp-bullet.selected{background:#ffffff}#rev_slider_5_1_wrapper .hesperiden .tp-bullet-image{}#rev_slider_5_1_wrapper .hesperiden .tp-bullet-title{}</style>
+		</body>
+				</html>
+		
